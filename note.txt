@@ -1,0 +1,12 @@
+git init    Git可以管理的仓库
+git add    
+git commit -m "日志"
+git status
+git diff   查看详细不同的
+git log    命令显示从最近到最远的提交日志
+git reset --hard HEAD^     回到上个版本
+$ git reset --hard 3628164 
+
+Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
+
+
